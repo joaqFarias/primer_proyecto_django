@@ -1,4 +1,5 @@
-from django.shortcuts import render, HttpResponse, redirect, JsonResponse
+from django.http.response import JsonResponse
+from django.shortcuts import render, HttpResponse, redirect
 
 # Create your views here.
 def root(request):
